@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-133160807-5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-133160807-5");
+    </script>
+
+    <meta content="text/html" charset="utf-8" http-equiv="Content-Type" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1"
+    />
+
+    <!-- Basic Meta-Tags -->
+    <meta
+      name="description"
+      content="A simple and easy way to calculate Grade Point Average (GPA) for the marks you have scored in Visvesvaraya Technological University."
+    />
+    <meta name="keywords" content="VTU, Engineering, Bangalore" />
+    <meta name="classification" content="Educational" />
+
+    <meta name="distribution" content="global" />
+    <meta name="author" content="Akhilesh Kumar Yadav" />
+
+    <meta name="theme-color" content="#060606" />
+    <title>VTU CGPA Calculator</title>
+
+    <!-- Fevicon -->
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/cgpa.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="main-bg">
+        <h4 class="mb-4">CGPA Calculator</h4>
+        <p class="display-5">
+          Please enter Σ (sum of Credits x Grades of subjects) and Credits
+          carried by the semester separated by a space. Example - If Σ = 206 and
+          semester had total 28 Credits, enter input as: <b>206 28</b>. Leave
+          not applicable fields blank.
+        </p>
+        <h5 id="result" class="mb-4"></h5>
+        <form name="cgpa_form">
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="1st Sem Σ & Credits"
+            name="one"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="2nd Sem Σ & Credits"
+            name="two"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="3rd Sem Σ & Credits"
+            name="three"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="4th Sem Σ & Credits"
+            name="four"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="5th Sem Σ & Credits"
+            name="five"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="6th Sem Σ & Credits"
+            name="six"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="7th Sem Σ & Credits"
+            name="seven"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="8th Sem Σ & Credits"
+            name="eight"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="9th Sem Σ & Credits"
+            name="nine"
+          /><br />
+          <input
+            type="text"
+            class="form-control-lg mb-4"
+            placeholder="10th Sem Σ & Credits"
+            name="ten"
+          /><br />
+        </form>
+
+        <button onclick="calculate_cgpa()" class="btn btn-outline-success mb-4">
+          Calculate
+        </button>
+        <a href="cgpa.htm"
+          ><button class="btn btn-outline-danger mb-4">Reset</button>
+        </a>
+        <a href="https://vtu-gpa.netlify.app"
+          ><button class="btn btn-outline-primary mb-4">Back Home</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

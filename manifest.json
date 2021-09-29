@@ -1,0 +1,31 @@
+{
+  "name": "VTU GPA Calculator",
+  "short_name": "VTU-GPA",
+  "theme_color": "#060606",
+  "background_color": "#060606",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "https://vtu-gpa.netlify.app/",
+  "description": "A simple and easy way to calculate GPA for VTU students.",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "https://vtu-gpa.netlify.app/images/main-logo.png",
+      "sizes": "583x583"
+    }
+  ],
+  "url": "https://vtu-gpa.netlify.app",
+  "lang": "English",
+  "screenshots": [
+    {
+      "src": "https://vtu-gpa.netlify.app/images/desktop.png",
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+    {
+      "src": "https://vtu-gpa.netlify.app/images/mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("https://vtu-gpa.netlify.app/font/RobotoMono-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+#main-bg {
+  padding: 10% 5% 0% 5%;
+  line-height: 2;
+}
+.form-control-lg {
+  width: 100%;
+  background-color: #121212;
+  border: 1px solid #505050;
+  color: white;
+}
+
+#result {
+  color: #b4b4b4;
+  line-height: 1.5;
+}
+
+#error {
+  color: #cc0000;
+  line-height: 1.5;
+  font-size: initial;
+}
+
+#res-mod {
+  color: #77b300;
+  font-weight: bold;
+}
